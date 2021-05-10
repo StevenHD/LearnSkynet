@@ -41,5 +41,3 @@ Run these in different ITerm2:
 5. testQueryUS.lua: queryservice()是询问当前的服务，比如我们建立了一个全局唯一服务，可以通过queryservice()来查询它。
 6. testUniqueService.lua: 当前节点唯一服务和全局唯一服务，和单例是比较像的。
 7. config1, config2, config3: 可以同时启动3个节点，一个主节点，2个从节点，注意主节点中的cmaster，harbor对应的address，以及cslave与cmaster和其他cslave之间连接时，端口号的对应。
-
-
